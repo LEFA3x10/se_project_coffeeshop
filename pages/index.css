@@ -11,18 +11,21 @@
 .header {
   padding: 30px 80px 40px;
   min-height:720px;
-  min-height: 800px;
+  max-height: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position:relative;
 
 }
 
 .header__image {
   width:646px;
   height:568px;
-  margin-top: 124px;
-  padding-right: 5px;
+  position:absolute;
+  top:124px;
+  right:5px;
+
 }
 
 .nav {
@@ -54,7 +57,7 @@ list-style-type: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px
+  line-height: 20px;
 
 }
 
@@ -78,6 +81,7 @@ list-style-type: none;
   font-size: 60px;
   line-height: 72px;
   color: #2F80ED;
+
 }
 
 .header__description {
@@ -111,21 +115,54 @@ list-style-type: none;
 
 .recipes {
   padding: 100px 80px 215px;
-  max-width: 580px;
+  background-image:url(/se_project_coffeeshop/images/background_recipes.svg);
+  background-position: bottom;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color:#012750 ;
+  color:white;
+}
+
+.recipes__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+
 }
 
 .recipe__subtitle {
   max-width: 438px;
   gap:24px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
 }
 
 .recipes__videos {
   display: flex;
   justify-content:center;
   gap:40px;
+  color:white;
+
 }
 
 .recipes__video-caption {
   display:flex;
   justify-content: space-between;
+
+
+}
+
+Aero {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
 }
