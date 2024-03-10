@@ -170,7 +170,7 @@ Aero {
 .reservation {
   padding: 100px 0 120px;
   background-color: #D9E7FF;
-  background-image: url(../images/background_reservation.svg)
+  background-image: url(../images/background_reservation.svg);
   background-size: cover;
 
 }
