@@ -1,0 +1,53 @@
+.recipes {
+    padding: 100px 80px 215px;
+    background-image:url(/se_project_coffeeshop/images/background_recipes.svg);
+    background-position: bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color:#012750 ;
+    color:white;
+  }
+
+  .recipes__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+
+  }
+
+  .recipe__subtitle {
+    max-width: 438px;
+    gap:24px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+  }
+
+  .recipes__videos {
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    color:white;
+
+  }
+
+  .recipes__video-caption {
+    display:flex;
+    justify-content: space-between;
+
+
+  }
+
+  Aero {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+  }
