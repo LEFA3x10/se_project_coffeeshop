@@ -8,7 +8,7 @@
    <meta name="keywords" content="HTML, CSS"/>
    <link rel="stylesheet" href="./vendor/normalize.css"/>
    <link rel="stylesheet" href="./pages/index.css"/>
-   <link rel="stylesheet" href="./vendor/pages.css"/>
+   <link rel="stylesheet" href="./blocks/page.css"/>
    <link rel="stylesheet" href="./blocks/header.css"/>
    <link rel="stylesheet" href="./blocks/nav.css"/>
    <link rel="stylesheet" href="./blocks/recipes.css"/>
@@ -67,13 +67,13 @@
            <div class="recipes__videos">
               <div>
                 <iframe src="https://www.youtube.com/watch?v=j6VlT_jUVPc" class="recipes__iframe"></iframe>
-                <p class="recipes__video-caption"><span class="Aero"> Aeropress recipe
+                <p class="recipes__video-caption"><span> Aeropress recipe
                 ~5 min</span>
                 </p>
              </div>
              <div>
                <iframe src="https://www.youtube.com/watch?v=st571DYYTR8" class="recipes__iframe"></iframe>
-               <p class="recipes__videos-caption">French press recipe
+               <p class="recipes__video-caption">French press recipe
                ~15 min</p>
              </div>
            </div>
@@ -84,11 +84,11 @@
          <fieldset class="form__fieldset">
          <label for ="name" class="form__label">
           Name
-           <input type="text" class="form__input" placeholder="  Name Surname" id="name">
+           <input type="text" class="form__input" placeholder="Name Surname" id="name">
          </label>
          <label for ="Number-of-guests" class="form__label">
           Number of guest *
-          <input type="number" class="form__input" placeholder="  1-8" id="Number-of-guests" >
+          <input type="number" class="form__input" placeholder="1-8" id="Number-of-guests" >
         </label>
         <label for ="Date-time" class="form__label">
           Date & time *
@@ -96,10 +96,10 @@
         </label>
         <label for ="email" class="form__label">
           Your email
-          <input type="email" class="form__input" placeholder="  email@email.com" id="email">
+          <input type="email" class="form__input" placeholder="email@email.com" id="email">
         </label>
       </fieldset>
-      <button class="form__button">Book of a table</button>
+      <button class="form__button" type="submit">Book of a table</button>
       <label for ="button" class="form__label form__label_type_checkbox">
         <input type="checkbox" class="form__checkbox" id="button">
          I agree with terms of use
@@ -209,7 +209,7 @@
             <p class="about__paragraph">
             Our main mission is keeping guests cozy and energized.
           </p>
-            <pclass="about__paragraph">
+            <p class="about__paragraph">
             Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!
            </p>
             </div>
@@ -238,7 +238,7 @@
              </ul>
             </div>
          </div>
-         <div class="footer__copyright">&copy Luis Fernandez</div>
+         <h3 class="footer__copyright">&copy; Luis Fernandez</h3>
      </footer>
    </div>
  </body>
