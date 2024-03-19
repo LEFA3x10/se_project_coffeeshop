@@ -21,8 +21,6 @@
   max-width: 251px;
   z-index: 2;
 
-
-
 }
 
 .about__content {
@@ -70,7 +68,7 @@
 
   100% {
     opacity:0;
-    transform:scale(1.3s)
+    transform:scale(1.3);
 
   }
 
