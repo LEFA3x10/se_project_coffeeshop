@@ -6,15 +6,7 @@
    <meta name="description" content="Coffe Shop Landing Page"/>
    <meta name="author" content="Luis Fernandez"/>
    <meta name="keywords" content="HTML, CSS"/>
-   <link rel="stylesheet" href="./vendor/normalize.css"/>
    <link rel="stylesheet" href="./pages/index.css"/>
-   <link rel="stylesheet" href="./blocks/page.css"/>
-   <link rel="stylesheet" href="./blocks/header.css"/>
-   <link rel="stylesheet" href="./blocks/nav.css"/>
-   <link rel="stylesheet" href="./blocks/recipes.css"/>
-   <link rel="stylesheet" href="./blocks/reservation.css"/>
-   <link rel="stylesheet" href="./blocks/form.css"/>
-   <link rel="stylesheet" href="./blocks/about.css"/>
    <link rel="icon" type="image/o-icon" href="favicon.ico"/>
    <title>Coffe Shop</title>
    <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -84,24 +76,24 @@
          <fieldset class="form__fieldset">
          <label for ="name" class="form__label">
           Name
-           <input type="text" class="form__input" placeholder="Name Surname" id="name">
+           <input type="text" class="form__input" placeholder="Name Surname" id="name" required>
          </label>
          <label for ="Number-of-guests" class="form__label">
           Number of guest *
-          <input type="number" class="form__input" placeholder="1-8" id="Number-of-guests" >
+          <input type="number" class="form__input" placeholder="1-8" id="Number-of-guests"required >
         </label>
         <label for ="Date-time" class="form__label">
           Date & time *
-          <input type="datetime-local" class="form__input" id="Date-time">
+          <input type="datetime-local" class="form__input" id="Date-time" required>
         </label>
         <label for ="email" class="form__label">
           Your email
-          <input type="email" class="form__input" placeholder="email@email.com" id="email">
+          <input type="email" class="form__input" placeholder="email@email.com" id="email" required >
         </label>
       </fieldset>
       <button class="form__button" type="submit">Book of a table</button>
-      <label for ="button" class="form__label form__label_type_checkbox">
-        <input type="checkbox" class="form__checkbox" id="button">
+      <label for ="button" class="form__label form__label_type_checkbox" required>
+        <input type="checkbox"  required class="form__checkbox" id="button">
          I agree with terms of use
     </label>
     </form>
@@ -220,18 +212,18 @@
      <footer class="footer">
          <div class="footer__content">
              <img class="footer__logo" alt="Tripleten logo" src="./images/logo_coffeeshop_light.svg">
-           <div class="footer__content footer__content_type_social">
+           <div class="footer__social">
              <h3 class="footer__social-heading">Social media</h3>
              <ul class="footer__list">
               <li class="footer__list-item">
                <a href="#" class="footer__social-link">
-                 <img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social_icon">
+                 <img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon">
                  Facebook
                </a>
               </li>
               <li class="footer__list-item">
                <a href="#" class="footer__social-link">
-                 <img src="./images/instagram_white.svg" alt="Facebook logo" class="footer__social_icon">
+                 <img src="./images/instagram_white.svg" alt="Facebook logo" class="footer__social-icon">
                  Instagram
                </a>
              </li>

@@ -19,17 +19,16 @@
 
   }
 
-  .recipe__subtitle {
+  .recipes__subtitle {
     max-width: 438px;
-    gap:24px;
-    font-family: "Notto Serif" 'Times New Roman', Times, serif;
+    font-family: "Noto Serif",'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     margin:0;
     padding:0;
-    text-align: center;
+    margin: 24px 0 80px;
   }
 
   .recipes__videos {
@@ -56,6 +55,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    margin-top: 24px;
 
 
   }

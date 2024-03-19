@@ -1,0 +1,83 @@
+.about {
+  margin:0;
+  padding:0;
+  display: flex;
+  background-color: #0a2850;
+  color:white;
+  justify-content: space-between;
+  position:relative;
+  overflow:hidden;
+  z-index: 2;
+
+}
+
+.about__title {
+  font-family: "Inter",Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 0 80px;
+  max-width: 251px;
+  z-index: 2;
+
+
+
+}
+
+.about__content {
+  font-family: "Noto Serif",'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin:119px 80px 173px 0;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.about__paragraph {
+  margin: 0 ;
+  padding:0;
+  gap:20px;
+
+}
+
+.about__circle {
+  background-color:#2f80ed;
+  border-radius:50%;
+  width:426px;
+  height: 426px;
+  top:-152px;
+  left:-129px;
+  z-index:0;
+  position:absolute;
+
+
+
+}
+
+@keyframes pulsate {
+  0% {
+    opacity:0;
+  }
+
+  50% {
+    opacity:0.6;
+  }
+
+  100% {
+    opacity:0;
+    transform:scale(1.3s)
+
+  }
+
+}
+
+.about__circle_animation_blurred {
+  transform-origin: center;
+  animation: pulsate 1.3s ease-in-out 1s infinite;
+
+}

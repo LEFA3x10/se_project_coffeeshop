@@ -10,6 +10,7 @@
     background-color:#ffffff;
     background-image:url(../images/background_header.svg);
     background-position:center;
+    background-size: cover;
     z-index: 1;
   }
 
@@ -35,8 +36,8 @@
   }
 
   .header__span-accent {
-    display:block;
-    font-family: "Noto Serif" 'Times New Roman', Times, serif;
+    display: block;
+    font-family: "Noto Serif",'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
@@ -49,7 +50,7 @@
     max-width: 683px;
     line-height:30px;
     margin: 28px 0 0 0 ;
-    font-family: "Noto Serif" 'Times New Roman', Times, serif;
+    font-family: "Noto Serif",'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
