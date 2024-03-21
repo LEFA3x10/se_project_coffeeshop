@@ -1,6 +1,6 @@
 .recipes {
     padding: 100px 80px 215px;
-    background-image:url(/se_project_coffeeshop/images/background_recipes.svg);
+    background-image:url(../images/background_recipes.svg);
     background-position: bottom;
     background-size:contain;
     background-repeat: no-repeat;
